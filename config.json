@@ -1,0 +1,94 @@
+[
+  {
+    "group": "内部系统导航",
+    "items": [
+      { 
+        "logo": "img/gitea.png",
+        "title": "gitea系统",
+        "notice": "gitea内部代码仓库",
+        "mainLink": "http://127.0.0.1:8090/",
+        "username": "gitea_user",
+        "password": "gitea_pass",
+        "visibleTo": ["admin", "developer", "tester"],
+        "links": [
+          { "label": "内网地址", "url": "http://127.0.0.1:8090/"},
+          { "label": "公网地址", "url": "https://gitea.com.cn/" }
+        ]
+      },
+      {
+        "logo": "img/img.png",
+        "title": "图片压缩",
+        "notice": "图片压缩系统",
+        "mainLink": "http://127.0.0.1:7080",
+        "visibleTo": ["admin", "developer", "designer"],
+        "links": [
+          { "label": "内网地址", "url": "http://127.0.0.1:7080" },
+          { "label": "公网地址", "url": "https://img.com.cn/" }
+        ]
+      },
+      {
+        "logo": "img/project.png",
+        "title": "项目管理系统",
+        "notice": "项目管理系统",
+        "mainLink": "http://127.0.0.1:3456/",
+        "visibleTo": ["admin", "manager", "developer"],
+        "links": [
+          { "label": "内网地址", "url": "http://127.0.0.1:3456/" },
+          { "label": "公网地址", "url": "https://project.com.cn/" }
+        ]
+      }
+    ]
+  },
+  {
+    "group": "运维系统导航",
+    "items": [
+      {
+        "logo": "img/ZeroTier.png",
+        "title": "ZeroTier",
+        "notice": "ZeroTier",
+        "mainLink": "https://my.zerotier.com/login",
+        "visibleTo": ["admin", "devops"],
+        "links": [
+          { "label": "公网地址", "url": "https://www.zerotier.com/" }
+        ]
+      },
+      {
+        "logo": "img/cloudflare.png",
+        "title": "cloudflare",
+        "notice": "cloudflare",
+        "mainLink": "https://dash.cloudflare.com",
+        "visibleTo": ["admin", "devops"],
+        "links": [
+          { "label": "公网地址", "url": "https://dash.cloudflare.com" }
+        ]
+      },
+      {
+        "logo": "img/huoshan.png",
+        "title": "火山引擎",
+        "notice": "火山引擎",
+        "mainLink": "https://www.volcengine.com/",
+        "visibleTo": ["admin", "devops", "manager"],
+        "links": [
+          { "label": "公网地址", "url": "https://www.volcengine.com/" }
+        ]
+      }
+    ]
+  },
+  {
+    "group": "展示系统导航",
+    "items": [
+      {
+        "logo": "img/huoshan.png",
+        "title": "火山引擎",
+        "notice": "火山引擎",
+        "mainLink": "https://www.volcengine.com/",
+        "username": "spug_user",
+        "password": "spug_pass",
+        "visibleTo": ["admin", "devops"],
+        "links": [
+          { "label": "公网地址", "url": "https://www.volcengine.com/" }
+        ]
+      }
+    ]
+  }
+]
